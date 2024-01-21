@@ -147,7 +147,7 @@ function defaultOGImage() {
             Can you guess the GitHub repository from the code?
           </p>
           <p style={{ fontSize: 28, textAlign: "right", float: "right" }}>
-            https://github-guessr.vercel.app
+            https://tokkoblogger.blogspot.com/
           </p>
         </div>
       </div>
