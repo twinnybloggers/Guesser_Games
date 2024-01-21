@@ -48,7 +48,7 @@ export default function About() {
             very welcome.
             <br />
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfk8ny1V01X3CZkfOZBjO28tpj866M___QjBtQLSAAXSgBnGA/viewform?usp=sf_link"
+              href="https://tokkoblogger.blogspot.com"
               className="text-indigo-500 hover:text-indigo-500"
               target="_blank"
               rel="noopener noreferrer"
@@ -59,7 +59,7 @@ export default function About() {
           <p>Wishing you a delightful engineering journey!</p>
           <p className="mt-6">
             GitHub-Guessr is created by{" "}
-            <a href="https://twitter.com/tan_z_tan">@tan_z_tan</a>.
+            <a href="https://tokkoblogger.blogspot.com">@tokkoBlogger</a>.
           </p>
         </div>
       </main>
