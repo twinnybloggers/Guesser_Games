@@ -23,7 +23,7 @@ export default function Layout({
   const isTopPage = router.pathname === "/";
   const desc =
     description ||
-    "Guess GitHub repositories by codes. GitHubGuessr is a game for geeks. Can you guess the GitHub repository from the code?";
+    "Guess GitHub repositories by Codes. Tokko Guesser Games is a game for geeks. Can you guess the GitHub repository from the code?";
 
   return (
     <motion.div
@@ -46,13 +46,13 @@ export default function Layout({
       }
     >
       <Head>
-        <title>{title || "GitHub-Guessr"}</title>
+        <title>{title || "Tokko-Guesser-Games"}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content={desc} />
-        <meta property="og:title" content={title || "GitHub-Guessr"} />
+        <meta property="og:title" content={title || "Tokko-Guesser-Games"} />
         <meta property="og:type" content={isTopPage ? "website" : "website"} />
-        <meta property="og:site_name" content={title || "GitHub-Guessr"} />
+        <meta property="og:site_name" content={title || "Tokko-Guesser-Games"} />
         <meta
           property="og:url"
           content={ogUrl || `${process.env.SERVERHOST}`}
@@ -66,11 +66,11 @@ export default function Layout({
       {children}
       <footer className="flex items-center justify-center w-full h-12 border-t text-gray-500 text-xl mt-6">
         <span className="font-extrabold">
-          <Link href="/">GitHub-Guessr</Link>
+          <Link href="/">Tokko Guesser Games</Link>
         </span>
         <Link
           className="ml-3 text-gray-600 hover:text-gray-500"
-          href="https://github.com/tan-z-tan/GitHubGuessr"
+          href="https://tokkkoblogger.blogspot.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
